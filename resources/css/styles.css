@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #ff5402;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#time-string {
+	position: absolute;
+	top:35%;
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: .05em;
+	border-top: 4px solid black;
+	/* border-bottom: 3px solid black; */
+	color: white;
+}
