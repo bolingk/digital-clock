@@ -1,5 +1,5 @@
-var clockString = setInterval(clockTick, 1000),
-	today;
+/*var clockString = setInterval(clockTick, 1000),*/
+	var today;
 
 function getToday() {
 	today = new Date();
@@ -23,7 +23,6 @@ function stopTick() {
 }
 
 function stopWatchZero() {
-	clearInterval(clockString);
 	getToday();
 	today.setHours(0);
 	today.setMinutes(0);
@@ -38,3 +37,4 @@ function intPadding(n) {
     return n;
 }
 
+stopWatchZero();
