@@ -7,9 +7,14 @@
 
 body {
 	margin: 0;
+	/* background-color: #ff5402; */
 	background-color: #ff5402;
+	background: linear-gradient(to right, #ff5402, #ef8a17);
+	background: -moz-linear-gradient(to right, #ff5402, #ef8a17);
 	font-family: 'Space Mono', monospace;
+	text-shadow: .25px .25px 3px black;
 	line-height: 1;
+	text-align: center;
 }
 
 main {
@@ -31,14 +36,18 @@ main {
 
 #time-string {
 	min-height: 104px;
-	text-align: center;
 	font-size: 100px;
 	letter-spacing: .05em;
 	border-bottom: 4px solid black;
+
 	color: white;
 }
 
 .btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
 	height: 24px;
 	width: 24px;
 	margin: 3px;
@@ -46,9 +55,15 @@ main {
 	cursor: pointer;
 	border: none;
 	font-size: 24px;
+	text-shadow: .25px .25px 3px black;
 	color: white;
 }
 
 .btn:hover {
+	color: black;
+	text-shadow: .25px .25px 1px black;
+}
+
+.btn:active {
 	color: black;
 }
