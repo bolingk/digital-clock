@@ -2,26 +2,52 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	position: relative;
 }
 
 body {
 	margin: 0;
 	background-color: #ff5402;
+	font-family: 'Space Mono', monospace;
+	line-height: 1;
 }
 
 main {
+	top: 35vh;
+	width:; 405px;
+}
+
+.cont-main {
+	width: 530px;
+	margin: 0 auto;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+.cont-inner {
+	display: inline-flex;
 }
 
 #time-string {
-	position: absolute;
-	top:35%;
+	min-height: 104px;
 	text-align: center;
 	font-size: 100px;
 	letter-spacing: .05em;
-	border-top: 4px solid black;
-	/* border-bottom: 3px solid black; */
+	border-bottom: 4px solid black;
+	color: white;
+}
+
+.btn {
+	height: 24px;
+	width: 24px;
+	margin: 3px;
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
+}
+
+i {
+	font-size: 24px;
 	color: white;
 }
