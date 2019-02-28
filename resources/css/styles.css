@@ -39,7 +39,6 @@ main {
 	font-size: 100px;
 	letter-spacing: .05em;
 	border-bottom: 4px solid black;
-
 	color: white;
 }
 
@@ -67,3 +66,17 @@ main {
 .btn:active {
 	color: black;
 }
+
+/****** Media Queries ******/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
