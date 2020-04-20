@@ -30,7 +30,18 @@ main {
 	flex-direction: column;
 }
 
-.cont-inner {
+.cont-btn {
+	width: 530px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.cont-btn-stop {
+	display: inline-flex;
+
+}
+
+.cont-btn-app {
 	display: inline-flex;
 }
 
@@ -42,14 +53,21 @@ main {
 	color: white;
 }
 
-.btn {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+button {
+	padding-right: 10px;
+}
+
+a.btn {
 	border-radius: 50%;
 	height: 24px;
 	width: 24px;
 	margin: 3px;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: transparent;
 	cursor: pointer;
 	border: none;
